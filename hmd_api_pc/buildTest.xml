@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="hmdAutoTest" default="clean" basedir=".">
+    <property name="src.dir" value="${basedir}/src1" />
+    <property name="dest.dir" value="${basedir}/classes" />
+    <!--specify directory path-->
+    <property name="libs.dir" value="E:/libsManager/libHMD"/>
+	<property name="output.dir" value="${basedir}/test-output"/>
+<!-- 	<property name="reports.dir" value="${basedir}/reports"/> -->
+	<property name="jar.file" value="auto.jar" />
+	<property name="dist.dir" value="D:/buildTest/automationTest" />
+    <property name="testdata.dir" value="D:/buildTest/testdata" />
+<!--	<property name="appApk.dir" value="D:/buildTest/apps" />-->
+	
+ 	<tstamp>
+ 	   <format property="date" pattern="yyyy-MM-dd HH.mm" />
+ 	</tstamp>	
+    <path id="compile.path">
+        <fileset dir="${libs.dir}">
+            <include name="**/*.jar" />
+        </fileset>
+    </path>
+    
+    <path id="run.classpath">
+        <pathelement location="${dist.dir}" />
+        <fileset dir="${dist.dir}">
+            <include name="**/*.jar" />
+        </fileset>        
+    </path> 
+    
+    <patternset id="no.java">  
+        <exclude name="**/*.java" />  
+    </patternset>
+	
+	<!--create directory where complied classes files are stored-->
+    <target name="init">
+        <delete dir="${dist.dir}"/>
+        <delete dir="${testdata.dir}"/>
+        <delete dir="${output.dir}"/>
+<!--        <delete dir="${appApk.dir}"/>-->
+        <mkdir dir="${dest.dir}" />
+        <mkdir dir="${src.dir}" />
+        <copy todir="${src.dir}"> 
+             <fileset dir="${basedir}/src/main/java">
+                <include name="**/*.java" />
+             </fileset>  
+        </copy> 
+        <copy todir="${src.dir}">  
+             <fileset dir="${basedir}/src/main/resources">  
+                <include name="**/*.xml" />
+                <include name="**/*.props" />
+                <include name="**/*.xls" />
+             </fileset>  
+        </copy>
+
+        <copy todir="${dest.dir}"> 
+             <fileset dir="${src.dir}">
+                <patternset refid="no.java" />
+             </fileset>  
+        </copy>
+        
+    </target>
+	
+    <target name="compile" depends="init">
+        <javac encoding="UTF-8" srcdir="${src.dir}" destdir="${dest.dir}" classpathref="compile.path" includeantruntime="false" />
+    </target>
+    
+     <target name="jar" depends="compile" >  
+        <jar jarfile="${dist.dir}/${jar.file}" >  
+            <fileset dir="${dest.dir}" includes="**/*.*" /> 
+        </jar>  
+    </target> 
+    
+    <target name="copy" depends="jar" >
+        <copy todir="${dist.dir}"> 
+             <fileset dir="${basedir}">
+                <include name="testng.xml" />
+             </fileset>  
+        </copy>
+        
+        <copy todir="${dist.dir}">
+            <fileset dir="${libs.dir}">
+                <include name="**/*.jar" />
+            </fileset>
+        </copy>
+                
+        <copy todir="${testdata.dir}">
+             <fileset dir="${basedir}/testdata">
+                <include name="**/*.xls" />
+             </fileset>  
+        </copy>  
+        
+<!--        <copy todir="${appApk.dir}">-->
+<!--             <fileset dir="${basedir}/apps">-->
+<!--                <include name="**/*.apk" />-->
+<!--             </fileset>-->
+<!--        </copy>        -->
+    </target> 
+	
+   <!-- run testng ant task	 -->	
+   <target name="run_tests" depends="copy" description="run tests">
+
+     <taskdef resource="testngtasks" classpath="${dist.dir}/testng-6.8.jar" />
+
+<!--	 <testng classpathref="run.classpath" outputdir="${output.dir}" delegateCommandSystemProperties="true" haltonfailure="false" useDefaultListeners="false" listeners="org.uncommons.reportng.HTMLReporter,org.uncommons.reportng.JUnitXMLReporter">-->
+
+<!--         <xmlfileset dir="${dist.dir}" includes="testng.xml"/>-->
+<!--         <jvmarg value="-Dfile.encoding=UTF-8" />-->
+<!--         <sysproperty key="org.uncommons.reportng.title" value="autoTestReport"/>-->
+<!--	 </testng>-->
+
+       <testng classpathref="run.classpath" outputdir="${output.dir}" delegateCommandSystemProperties="true">
+
+           <xmlfileset dir="${dist.dir}" includes="testng.xml"/>
+           <jvmarg value="-Dfile.encoding=UTF-8" />
+           <sysproperty key="org.uncommons.reportng.title" value="autoTestReport"/>
+       </testng>
+
+   </target>
+  
+   <target name="transform" depends="run_tests">
+		<echo message="going to optimize the test reports" />
+	     <xslt in="${output.dir}/testng-results.xml" style="${basedir}/testng-results.xsl" out="${output.dir}/autoTestReport/autoTestResult.html"
+	     	classpathref="run.classpath">
+	         <param name="testNgXslt.outputDir" expression="${output.dir}/autoTestReport" />
+	         <param name="testNgXslt.showRuntimeTotals" expression="true"/>
+	     </xslt>
+   </target>
+
+<!--    <target name="make_zip" depends="transform">-->
+<!--	   <echo message="going to generate the TestReport zip" />-->
+<!--	   <jar destfile="${output.dir}/autoTestReport_${date}.zip" basedir="${output.dir}/html" />-->
+<!--	 </target>-->
+
+<!--    <target name="make_zip" depends="transform">-->
+<!--        <echo message="going to generate the TestReport zip" />-->
+<!--        <jar destfile="${output.dir}/autoTestReport.zip" basedir="${output.dir}/autoTestReport" />-->
+<!--    </target>-->
+
+
+<!--    <target name="send-mail" depends="make_zip">-->
+<!--        <echo message="going to send mail" />-->
+<!--        <mail mailhost="smtp.263.net" mailport="25" user="yi.lu@homedo.com" password="12345678aB" subject="[AutoTest]自动化测试报告_${date}">-->
+<!--            <from address="yi.lu@homedo.com"/>-->
+<!--            <fileset dir="${output.dir}">-->
+<!--                <include name="autoTestReport_${date}.zip" />-->
+<!--            </fileset>-->
+<!--            <to address="yi.lu@homedo.com"/>-->
+<!--&lt;!&ndash;            <to address="wangxinxin@homedo.com"/>&ndash;&gt;-->
+<!--            &lt;!&ndash; 	        <to address="techmanager@xinlonghang.cn"/> &ndash;&gt;-->
+<!--            <message> 测试结果请查看附件压缩包中的autoTestResult.html文件，谢谢！</message>-->
+<!--        </mail>-->
+<!--    </target>-->
+
+
+
+    <target name="clean" depends="transform">
+        <echo message="going to clean" />
+        <delete dir="${src.dir}"/>
+        <delete dir="${dest.dir}"/>
+        <!--		 <delete dir="${output.dir}"/>-->
+    </target>
+
+
+
+</project>

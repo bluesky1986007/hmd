@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AntConfiguration">
+    <defaultAnt name="Apache Ant version 1.9.7" />
+    <buildFile url="file://$PROJECT_DIR$/buildTest.xml">
+      <customJdkName value="1.8" />
+    </buildFile>
+  </component>
+</project>

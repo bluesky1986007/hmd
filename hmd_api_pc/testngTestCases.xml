@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="自动化测试运行结果" verbose="1" skipfailedinvocationcounts="true">
+<!-- 创业者 -->
+
+<!--	<test name="约谈流程" >-->
+<!--		<classes>-->
+<!--			<class name="test.ui.apptest.app.AppCommonInterview">-->
+<!--				<methods>-->
+<!--					<include name="inquiryProcess" />-->
+<!--				</methods>-->
+<!--			</class>-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	-->
+<!--	<test name="快速问诊流程" >-->
+<!--		<classes>-->
+<!--			<class name="test.ui.apptest.app.AppCommonSpeedInquiry">-->
+<!--				<methods>-->
+<!--					<include name="appCommonSpeedInquiry" />-->
+<!--				</methods>-->
+<!--			</class>-->
+<!--		</classes>-->
+<!--	</test>-->
+
+</suite>
+

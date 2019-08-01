@@ -1,0 +1,4 @@
+###############################mysql pre###################################
+mysqlPreConnect=172.16.11.80:3306
+mysqlPreUser=root
+mysqlPrePwd=yrXLH

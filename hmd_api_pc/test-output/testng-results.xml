@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="接口自动化测试运行结果" duration-ms="2553" started-at="2019-07-01T06:42:52Z" finished-at="2019-07-01T06:42:54Z">
+    <groups>
+    </groups>
+    <test name="接口-推荐" duration-ms="1921" started-at="2019-07-01T06:42:52Z" finished-at="2019-07-01T06:42:54Z">
+      <class name="test.trade.itemDetails.RecommendDatalistPostTest">
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:test.trade.itemDetails.RecommendDatalistPostTest@31610302]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="841" started-at="2019-07-01T14:42:52Z" finished-at="2019-07-01T14:42:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.trade.itemDetails.RecommendDatalistPostTest@31610302]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-07-01T14:42:53Z" finished-at="2019-07-01T14:42:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:test.trade.itemDetails.RecommendDatalistPostTest@31610302]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2019-07-01T14:42:53Z" finished-at="2019-07-01T14:42:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.trade.itemDetails.RecommendDatalistPostTest.recommendDatalist(java.util.Map) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="recommendDatalist(java.util.Map)[pri:0, instance:test.trade.itemDetails.RecommendDatalistPostTest@31610302]" name="recommendDatalist" duration-ms="740" started-at="2019-07-01T14:42:53Z" description="接口——推荐" data-provider="testData" finished-at="2019-07-01T14:42:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{status=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recommendDatalist -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:test.trade.itemDetails.RecommendDatalistPostTest@31610302]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2019-07-01T14:42:54Z" finished-at="2019-07-01T14:42:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.trade.itemDetails.RecommendDatalistPostTest.recommendDatalist(java.util.Map) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.trade.itemDetails.RecommendDatalistPostTest@31610302]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-07-01T14:42:54Z" finished-at="2019-07-01T14:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.trade.itemDetails.RecommendDatalistPostTest -->
+    </test> <!-- 接口-推荐 -->
+    <test name="接口-众包大型客货单" duration-ms="609" started-at="2019-07-01T06:42:54Z" finished-at="2019-07-01T06:42:54Z">
+      <class name="test.trade.submit.GetZBDirectlyMiniShopCartGetTest">
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:test.trade.submit.GetZBDirectlyMiniShopCartGetTest@2b2948e2]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="7" started-at="2019-07-01T14:42:54Z" finished-at="2019-07-01T14:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.trade.submit.GetZBDirectlyMiniShopCartGetTest@2b2948e2]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-07-01T14:42:54Z" finished-at="2019-07-01T14:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:test.trade.submit.GetZBDirectlyMiniShopCartGetTest@2b2948e2]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2019-07-01T14:42:54Z" finished-at="2019-07-01T14:42:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.trade.submit.GetZBDirectlyMiniShopCartGetTest.getZBDirectlyMiniShopCart(java.util.Map) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="getZBDirectlyMiniShopCart(java.util.Map)[pri:0, instance:test.trade.submit.GetZBDirectlyMiniShopCartGetTest@2b2948e2]" name="getZBDirectlyMiniShopCart" duration-ms="451" started-at="2019-07-01T14:42:54Z" description="接口——众包大型客货单" data-provider="testData" finished-at="2019-07-01T14:42:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{isVisble=false}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getZBDirectlyMiniShopCart -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:test.trade.submit.GetZBDirectlyMiniShopCartGetTest@2b2948e2]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2019-07-01T14:42:54Z" finished-at="2019-07-01T14:42:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.trade.submit.GetZBDirectlyMiniShopCartGetTest.getZBDirectlyMiniShopCart(java.util.Map) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.trade.submit.GetZBDirectlyMiniShopCartGetTest@2b2948e2]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-07-01T14:42:54Z" finished-at="2019-07-01T14:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.trade.submit.GetZBDirectlyMiniShopCartGetTest -->
+    </test> <!-- 接口-众包大型客货单 -->
+  </suite> <!-- 接口自动化测试运行结果 -->
+</testng-results>

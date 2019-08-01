@@ -1,0 +1,9 @@
+TEST_ID=uat
+SYS_ANDROID=android
+
+
+##mail config
+sendMailUsername=luyi@xinlonghang.cn
+sendMailPassword=33224466aB
+fromMailAddr=luyi@xinlonghang.cn
+toMailAddr=luyi@xinlonghang.cn

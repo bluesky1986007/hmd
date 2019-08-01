@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="appAuto" default="clean" basedir=".">
+    <!--specify directory path-->
+    <property name="src.dir" value="${basedir}/src1" />
+    <property name="dest.dir" value="${basedir}/classes" />
+    <property name="libs.dir" value="${basedir}/libs"/>
+	<property name="output.dir" value="${basedir}/test-output"/>
+	<property name="jar.file" value="auto.jar" />
+	<property name="dist.dir" value="./automationRun" />
+<!-- 	<property name="mailtolist" value="qa@xinlonghang.cn,yangyu@xinlonghang.cn,liucheng@xinlonghang.cn,cjz@xinlonghang.cn,chenke@xinlonghang.cn" />
+	<property name="mailcclist" value="techmanager@xinlonghang.cn" /> -->	
+	<property name="MAIL_LIST" value="" />
+    <property name="TESTNG_XML" value="" />
+<!-- 	<property name="testdata.dir" value="./testdata" /> -->
+<!-- 	<property name="appApk.dir" value="./../apps" /> -->
+	
+ 	<tstamp>
+ 	   <format property="date" pattern="yyyy-MM-dd HH.mm.ss" />
+ 	</tstamp>	
+    <path id="compile.path">
+        <fileset dir="${libs.dir}">
+            <include name="**/*.jar" />
+        </fileset>
+    </path>
+    
+    <path id="run.classpath">
+        <pathelement location="${dist.dir}" />
+        <fileset dir="${dist.dir}">
+            <include name="**/*.jar" />
+        </fileset>        
+    </path> 
+    
+    <patternset id="no.java">  
+        <exclude name="**/*.java" />  
+    </patternset>
+	
+	<!--create directory where complied classes files are stored-->
+    <target name="init">
+        <delete dir="${dist.dir}"/>
+        <delete dir="${dest.dir}"/>
+        <delete dir="${src.dir}"/>
+        <delete dir="${output.dir}"/>
+<!--         <delete dir="${testdata.dir}"/> -->
+<!--         <delete dir="${appApk.dir}"/> -->
+        
+        <mkdir dir="${dest.dir}" />
+        <mkdir dir="${src.dir}" />
+        <mkdir dir="${dist.dir}" />
+        <mkdir dir="${output.dir}" />
+<!--         <mkdir dir="${testdata.dir}" /> -->
+        
+        <copy todir="${src.dir}"> 
+             <fileset dir="${basedir}/src/main/java">
+                <include name="**/*.java" />
+             </fileset>  
+        </copy> 
+        <copy todir="${src.dir}">  
+             <fileset dir="${basedir}/src/main/resources">  
+                <include name="**/*.xml" />
+                <include name="**/*.props" />
+                <include name="**/*.xls" />
+             </fileset>  
+        </copy>
+        
+        <copy todir="${dest.dir}"> 
+             <fileset dir="${src.dir}">
+                <patternset refid="no.java" />
+             </fileset>  
+        </copy>
+        
+    </target>
+	
+    <target name="compile" depends="init">
+        <javac encoding="UTF-8" srcdir="${src.dir}" destdir="${dest.dir}" classpathref="compile.path" includeantruntime="false" />
+    </target>
+    
+     <target name="jar" depends="compile" >  
+        <jar jarfile="${dist.dir}/${jar.file}" >  
+            <fileset dir="${dest.dir}" includes="**/*.*" /> 
+        </jar>  
+    </target> 
+    
+    <target name="copy" depends="jar" >
+        <copy todir="${dist.dir}"> 
+             <fileset dir="${basedir}">
+                <include name="${TESTNG_XML}" />
+             </fileset>  
+        </copy>
+        
+        <copy todir="${dist.dir}">
+            <fileset dir="${libs.dir}">
+                <include name="**/*.jar" />
+            </fileset>
+        </copy>
+                
+<!--         <copy todir="${testdata.dir}">
+             <fileset dir="${basedir}/testdata">
+                <include name="**/*.xls" />
+             </fileset>  
+        </copy>   -->
+        
+<!--         <copy todir="${appApk.dir}">
+             <fileset dir="${basedir}/apps">
+                <include name="**/*.apk" />
+             </fileset>
+        </copy>   -->      
+    </target> 
+	
+   <!-- run testng ant task	 -->	
+   <target name="run_tests" depends="copy" description="run tests">
+   
+     <taskdef resource="testngtasks" classpath="${dist.dir}/testng-6.8.jar" />
+	
+	 <testng classpathref="run.classpath" outputdir="${output.dir}" delegateCommandSystemProperties="true"> 
+	    <xmlfileset dir="${dist.dir}" includes="${TESTNG_XML}"/>
+<!-- 	    <sysproperty key="org.uncommons.reportng.title" value="APP自动化测试报告"/> -->
+	    <jvmarg value="-Dfile.encoding=UTF-8"/>
+	 </testng>	     	
+<!--   <antcall target="clean" /> 	 -->
+   </target>
+  
+  <target name="transform" depends="run_tests">
+		<echo message="going to optimize the test reports" />
+	     <xslt in="${output.dir}/testng-results.xml"  style="${basedir}/testng-results.xsl"  out="${output.dir}/AppReports/appTestResults.html"  classpathref="run.classpath">
+	     	
+	         <param name="testNgXslt.outputDir" expression="${output.dir}/AppReports" />
+	         <param name="testNgXslt.showRuntimeTotals" expression="true"/>
+
+	     </xslt>
+	 </target> 
+	 
+	 <target name="make_zip" depends="transform">
+	   <echo message="going to generate the TestReport" />
+	   <jar destfile="${output.dir}/AppReports_${date}.zip" basedir="${output.dir}/AppReports" />
+	 </target>
+  
+	<target name="send-mail" depends="make_zip"> 
+		<echo message="going to send mail" />
+	    <mail mailhost="smtp.qiye.163.com" user="qatech@xinlonghang.cn" password="xlhQA222"
+	    	subject="[Pre-Automation]APP自动化测试报告_${date}"  from="qatech@xinlonghang.cn" 
+	    	tolist="${MAIL_LIST}">
+<!-- 	        <from address="qatech@xinlonghang.cn"/> -->
+	        <fileset dir="${output.dir}">
+	           <include name="AppReports_${date}.zip" />
+	        </fileset>
+<!-- 	        <to address="luyi@xinlonghang.cn"/> -->
+<!-- 	        <to address="qa@xinlonghang.cn"/> -->
+<!-- 	        <cc address="techmanager@xinlonghang.cn"/> -->
+	     <message> APP预发环境自动化测试结果请查看附件压缩包中的appTestResults.html文件，谢谢！</message>
+	    </mail>  
+	 </target>
+
+     <target name="clean" depends="send-mail">
+	  <echo message="going to clean" />	
+		 <delete dir="${src.dir}"/>
+		 <delete dir="${dest.dir}"/>
+     </target>
+	
+</project>

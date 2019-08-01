@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="Suite_Mail" verbose="1">
+
+    <suite-files>     
+      <suite-file path="./testngTestCases.xml" />
+      <suite-file path="./testng.xml" />  
+    </suite-files>
+	
+<!--	<test name="email">-->
+<!--		<parameter name="attachName" value="appForAndroid" />-->
+<!--		<classes>-->
+<!--			<class name="test.utils.Mail">-->
+<!--				<methods>-->
+<!--					<include name="sendAutomationReports" />-->
+<!--				</methods>-->
+<!--			</class>-->
+<!--		</classes>-->
+<!--	</test>-->
+
+</suite>

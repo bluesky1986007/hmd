@@ -1,0 +1,10 @@
+service\HttpClientService.class
+common\frame\test\BaseTest.class
+test\trade\itemDetails\RecommendDatalistPostTest.class
+common\frame\helper\Utils.class
+common\utils\UrlsOfPre.class
+common\frame\data\ExcelProviderByTest.class
+common\utils\UrlsOfPre$1.class
+service\impl\HttpClientServiceImpl.class
+test\trade\submit\GetZBDirectlyMiniShopCartGetTest.class
+common\frame\data\ExcelProvider.class

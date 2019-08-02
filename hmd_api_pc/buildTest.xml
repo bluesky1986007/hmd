@@ -3,7 +3,7 @@
     <property name="src.dir" value="${basedir}/src1" />
     <property name="dest.dir" value="${basedir}/classes" />
     <!--specify directory path-->
-    <property name="libs.dir" value="E:/libsManager/libHMD"/>
+    <property name="libs.dir" value="E:/libsManager/libhmdtest"/>
 	<property name="output.dir" value="${basedir}/test-output"/>
 <!-- 	<property name="reports.dir" value="${basedir}/reports"/> -->
 	<property name="jar.file" value="auto.jar" />

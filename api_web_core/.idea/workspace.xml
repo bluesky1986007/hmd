@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4445a9a6-2133-44ce-b59b-e5ef3285fd6a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_web_core.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/seltest/TestSel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/seltest/TestSel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/api_web_core-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/api_web_core-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
@@ -23,18 +18,6 @@
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/接口自动化测试运行结果/接口-众包大型客货单.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/接口自动化测试运行结果/接口-众包大型客货单.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/接口自动化测试运行结果/接口-推荐.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/接口自动化测试运行结果/接口-推荐.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/接口自动化测试运行结果/接口-推荐.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/接口自动化测试运行结果/接口-推荐.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/common/frame/data/ExcelProvider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/common/frame/data/ExcelProviderByTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/common/frame/helper/Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/common/frame/test/BaseTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/common/utils/UrlsOfPre$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/common/utils/UrlsOfPre.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/service/HttpClientService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/service/impl/HttpClientServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/trade/itemDetails/RecommendDatalistPostTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/trade/submit/GetZBDirectlyMiniShopCartGetTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hmd_api_pc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmd_api_pc/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,16 +37,16 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/test/trade/itemDetails/RecommendDatalistPostTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="27" column="74" lean-forward="true" selection-start-line="27" selection-start-column="74" selection-end-line="27" selection-end-column="74" />
+              <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/log4j.properties">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="90" lean-forward="true" selection-start-line="19" selection-start-column="90" selection-end-line="19" selection-end-column="90" />
+            <state relative-caret-position="221">
+              <caret line="40" column="36" lean-forward="true" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -78,7 +61,15 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/test/seltest/TestSel.java" />
         <option value="$PROJECT_DIR$/src/test/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -245,7 +236,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564729205171</updated>
-      <workItem from="1564729207879" duration="877000" />
+      <workItem from="1564729207879" duration="4140000" />
     </task>
     <servers />
   </component>
@@ -268,9 +259,12 @@
     <history-entry file="RecommendDatalistPostTest_recommendDatalist - 2019.08.02 at 15h 14m 11s.xml">
       <configuration name="RecommendDatalistPostTest.recommendDatalist" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="RecommendDatalistPostTest_recommendDatalist - 2019.08.02 at 15h 15m 10s.xml">
+      <configuration name="RecommendDatalistPostTest.recommendDatalist" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="877000" />
+    <option name="totallyTimeSpent" value="4140000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -282,7 +276,7 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Navigate" />
       <window_info id="设计师" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
@@ -293,7 +287,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34353268" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34353268" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -323,17 +317,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/trade/itemDetails/RecommendDatalistPostTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="27" column="74" lean-forward="true" selection-start-line="27" selection-start-column="74" selection-end-line="27" selection-end-column="74" />
+        <state relative-caret-position="221">
+          <caret line="19" column="90" lean-forward="true" selection-start-line="19" selection-start-column="90" selection-end-line="19" selection-end-column="90" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/log4j.properties">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/trade/itemDetails/RecommendDatalistPostTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="90" lean-forward="true" selection-start-line="19" selection-start-column="90" selection-end-line="19" selection-end-column="90" />
+        <state relative-caret-position="272">
+          <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="40" column="36" lean-forward="true" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
         </state>
       </provider>
     </entry>

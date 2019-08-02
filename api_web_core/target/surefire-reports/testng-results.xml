@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="接口自动化测试运行结果" duration-ms="7225" started-at="2019-08-02T07:04:09Z" finished-at="2019-08-02T07:04:16Z">
+  <suite name="接口自动化测试运行结果" duration-ms="6964" started-at="2019-08-02T08:49:16Z" finished-at="2019-08-02T08:49:23Z">
     <groups>
     </groups>
-    <test name="接口-推荐" duration-ms="3509" started-at="2019-08-02T07:04:09Z" finished-at="2019-08-02T07:04:13Z">
+    <test name="接口-推荐" duration-ms="3953" started-at="2019-08-02T08:49:16Z" finished-at="2019-08-02T08:49:20Z">
       <class name="test.trade.itemDetails.RecommendDatalistPostTest">
-        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:test.trade.itemDetails.RecommendDatalistPostTest@6c3708b3]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="994" started-at="2019-08-02T15:04:09Z" finished-at="2019-08-02T15:04:10Z">
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:test.trade.itemDetails.RecommendDatalistPostTest@3b084709]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="1108" started-at="2019-08-02T16:49:16Z" finished-at="2019-08-02T16:49:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextPrepareTestInstance -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.trade.itemDetails.RecommendDatalistPostTest@6c3708b3]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-08-02T15:04:10Z" finished-at="2019-08-02T15:04:10Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.trade.itemDetails.RecommendDatalistPostTest@3b084709]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-08-02T16:49:17Z" finished-at="2019-08-02T16:49:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:test.trade.itemDetails.RecommendDatalistPostTest@6c3708b3]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2019-08-02T15:04:10Z" finished-at="2019-08-02T15:04:10Z">
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:test.trade.itemDetails.RecommendDatalistPostTest@3b084709]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2019-08-02T16:49:18Z" finished-at="2019-08-02T16:49:18Z">
           <params>
             <param index="0">
               <value>
@@ -26,7 +26,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextBeforeTestMethod -->
-        <test-method status="PASS" signature="recommendDatalist(java.util.Map)[pri:0, instance:test.trade.itemDetails.RecommendDatalistPostTest@6c3708b3]" name="recommendDatalist" duration-ms="2117" started-at="2019-08-02T15:04:10Z" description="接口——推荐" data-provider="testData" finished-at="2019-08-02T15:04:12Z">
+        <test-method status="PASS" signature="recommendDatalist(java.util.Map)[pri:0, instance:test.trade.itemDetails.RecommendDatalistPostTest@3b084709]" name="recommendDatalist" duration-ms="2454" started-at="2019-08-02T16:49:18Z" description="接口——推荐" data-provider="testData" finished-at="2019-08-02T16:49:20Z">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recommendDatalist -->
-        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:test.trade.itemDetails.RecommendDatalistPostTest@6c3708b3]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2019-08-02T15:04:13Z" finished-at="2019-08-02T15:04:13Z">
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:test.trade.itemDetails.RecommendDatalistPostTest@3b084709]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2019-08-02T16:49:20Z" finished-at="2019-08-02T16:49:20Z">
           <params>
             <param index="0">
               <value>
@@ -48,23 +48,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextAfterTestMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.trade.itemDetails.RecommendDatalistPostTest@6c3708b3]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-08-02T15:04:13Z" finished-at="2019-08-02T15:04:13Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.trade.itemDetails.RecommendDatalistPostTest@3b084709]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-08-02T16:49:20Z" finished-at="2019-08-02T16:49:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- test.trade.itemDetails.RecommendDatalistPostTest -->
     </test> <!-- 接口-推荐 -->
-    <test name="接口-众包大型客货单" duration-ms="3631" started-at="2019-08-02T07:04:13Z" finished-at="2019-08-02T07:04:16Z">
+    <test name="接口-众包大型客货单" duration-ms="2979" started-at="2019-08-02T08:49:20Z" finished-at="2019-08-02T08:49:23Z">
       <class name="test.trade.submit.GetZBDirectlyMiniShopCartGetTest">
-        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:test.trade.submit.GetZBDirectlyMiniShopCartGetTest@2758fe70]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="10" started-at="2019-08-02T15:04:13Z" finished-at="2019-08-02T15:04:13Z">
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:test.trade.submit.GetZBDirectlyMiniShopCartGetTest@184f6be2]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="12" started-at="2019-08-02T16:49:20Z" finished-at="2019-08-02T16:49:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextPrepareTestInstance -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.trade.submit.GetZBDirectlyMiniShopCartGetTest@2758fe70]" name="beforeClass" is-config="true" duration-ms="1" started-at="2019-08-02T15:04:13Z" finished-at="2019-08-02T15:04:13Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.trade.submit.GetZBDirectlyMiniShopCartGetTest@184f6be2]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-08-02T16:49:20Z" finished-at="2019-08-02T16:49:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:test.trade.submit.GetZBDirectlyMiniShopCartGetTest@2758fe70]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2019-08-02T15:04:13Z" finished-at="2019-08-02T15:04:13Z">
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:test.trade.submit.GetZBDirectlyMiniShopCartGetTest@184f6be2]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2019-08-02T16:49:20Z" finished-at="2019-08-02T16:49:20Z">
           <params>
             <param index="0">
               <value>
@@ -75,7 +75,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextBeforeTestMethod -->
-        <test-method status="PASS" signature="getZBDirectlyMiniShopCart(java.util.Map)[pri:0, instance:test.trade.submit.GetZBDirectlyMiniShopCartGetTest@2758fe70]" name="getZBDirectlyMiniShopCart" duration-ms="3445" started-at="2019-08-02T15:04:13Z" description="接口——众包大型客货单" data-provider="testData" finished-at="2019-08-02T15:04:16Z">
+        <test-method status="PASS" signature="getZBDirectlyMiniShopCart(java.util.Map)[pri:0, instance:test.trade.submit.GetZBDirectlyMiniShopCartGetTest@184f6be2]" name="getZBDirectlyMiniShopCart" duration-ms="2778" started-at="2019-08-02T16:49:20Z" description="接口——众包大型客货单" data-provider="testData" finished-at="2019-08-02T16:49:23Z">
           <params>
             <param index="0">
               <value>
@@ -86,7 +86,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getZBDirectlyMiniShopCart -->
-        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:test.trade.submit.GetZBDirectlyMiniShopCartGetTest@2758fe70]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2019-08-02T15:04:16Z" finished-at="2019-08-02T15:04:16Z">
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:test.trade.submit.GetZBDirectlyMiniShopCartGetTest@184f6be2]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2019-08-02T16:49:23Z" finished-at="2019-08-02T16:49:23Z">
           <params>
             <param index="0">
               <value>
@@ -97,7 +97,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextAfterTestMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.trade.submit.GetZBDirectlyMiniShopCartGetTest@2758fe70]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-08-02T15:04:16Z" finished-at="2019-08-02T15:04:16Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.trade.submit.GetZBDirectlyMiniShopCartGetTest@184f6be2]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-08-02T16:49:23Z" finished-at="2019-08-02T16:49:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

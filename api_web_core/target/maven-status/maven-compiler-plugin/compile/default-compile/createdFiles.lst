@@ -3,6 +3,7 @@ common\frame\test\BaseTest.class
 test\trade\itemDetails\RecommendDatalistPostTest.class
 common\frame\helper\Utils.class
 common\utils\UrlsOfPre.class
+test\seltest\TestSel.class
 common\frame\data\ExcelProviderByTest.class
 common\utils\UrlsOfPre$1.class
 service\impl\HttpClientServiceImpl.class

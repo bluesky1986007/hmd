@@ -1,44 +1,44 @@
-//package test.seltest;
+package test.seltest;
+
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
+import okhttp3.*;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+
+public class TestSel {
+
+
+
+  @BeforeClass
+  public void beforeClass() {
+  }
+
+  @Test
+  public void function() throws Exception {
+
+//		String filePath =  String.valueOf(new File("./../../").getCanonicalPath()) +"auto.pdf";
 //
-//import com.alibaba.fastjson.JSON;
-//import com.alibaba.fastjson.JSONObject;
-//import okhttp3.*;
-//import org.testng.annotations.AfterClass;
-//import org.testng.annotations.BeforeClass;
-//import org.testng.annotations.Test;
+//		System.out.println(filePath);
+
+
+//	    WebDriver  driverweb=new FirefoxDriver();
+//	    driverweb.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
+//	    driverweb.get("http://fwgl.yirongbang.net/");
+
+
+//    System.out.println("test!");
+//       hf = new HttpFixture();
+//       hf.nextRequest();
+//       hf.setUrl("https://b2b.homedo.com/order/GetSettlement?Key=4F84E89B-80E7-4E5F-B385-3B86E7E5FA60");
+//       hf.Get();
 //
+//	  System.out.println("status ="+hf.getStatus());
 //
-//public class TestSel {
-//
-//
-//
-//  @BeforeClass
-//  public void beforeClass() {
-//  }
-//
-//  @Test
-//  public void function() throws Exception {
-//
-////		String filePath =  String.valueOf(new File("./../../").getCanonicalPath()) +"auto.pdf";
-////
-////		System.out.println(filePath);
-//
-//
-////	    WebDriver  driverweb=new FirefoxDriver();
-////	    driverweb.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
-////	    driverweb.get("http://fwgl.yirongbang.net/");
-//
-//
-////    System.out.println("test!");
-////       hf = new HttpFixture();
-////       hf.nextRequest();
-////       hf.setUrl("https://b2b.homedo.com/order/GetSettlement?Key=4F84E89B-80E7-4E5F-B385-3B86E7E5FA60");
-////       hf.Get();
-////
-////	  System.out.println("status ="+hf.getStatus());
-////
-////       System.out.println(hf.getResponseBody());
-//
+//       System.out.println(hf.getResponseBody());
+
 //    OkHttpClient client = new OkHttpClient();
 //
 //    MediaType mediaType = MediaType.parse("application/octet-stream");
@@ -63,12 +63,12 @@
 //    System.out.println("status ="+status);
 //    System.out.println("totle ="+jsonObject.getString("total"));
 //
-//
-//
-//  }
-//
-//  @AfterClass
-//  public void afterClass() {
-//  }
-//
-//}
+
+
+  }
+
+  @AfterClass
+  public void afterClass() {
+  }
+
+}

@@ -26,6 +26,9 @@ public class TestSel {
   
   @Test
   public void function() throws Exception {
+
+
+    System.out.println("test");
 	  
 //		String filePath =  String.valueOf(new File("./../../").getCanonicalPath()) +"auto.pdf";
 //		

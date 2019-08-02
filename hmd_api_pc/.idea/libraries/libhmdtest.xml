@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="libhmdtest">
+    <CLASSES>
+      <root url="file://E:/libsManager/libhmdtest" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://E:/libsManager/libhmdtest" />
+    </SOURCES>
+    <jarDirectory url="file://E:/libsManager/libhmdtest" recursive="false" />
+    <jarDirectory url="file://E:/libsManager/libhmdtest" recursive="false" type="SOURCES" />
+  </library>
+</component>

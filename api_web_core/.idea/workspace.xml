@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c179bbc-4a8a-4ef2-9c17-b4cd3fd04cf6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-test.trade.itemDetails.RecommendDatalistPostTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-test.trade.itemDetails.RecommendDatalistPostTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-test.trade.submit.GetZBDirectlyMiniShopCartGetTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-test.trade.submit.GetZBDirectlyMiniShopCartGetTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/接口自动化测试运行结果/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/接口自动化测试运行结果/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/接口自动化测试运行结果/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/接口自动化测试运行结果/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/接口自动化测试运行结果/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/接口自动化测试运行结果/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/接口自动化测试运行结果/接口-众包大型客货单.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/接口自动化测试运行结果/接口-众包大型客货单.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/接口自动化测试运行结果/接口-众包大型客货单.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/接口自动化测试运行结果/接口-众包大型客货单.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/接口自动化测试运行结果/接口-推荐.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/接口自动化测试运行结果/接口-推荐.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/接口自动化测试运行结果/接口-推荐.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/接口自动化测试运行结果/接口-推荐.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/trade/submit/GetZBDirectlyMiniShopCartGetTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdata/uat/RecommendDatalistPostTest.xls" beforeDir="false" afterPath="$PROJECT_DIR$/testdata/uat/RecommendDatalistPostTest.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hmd_api_pc/.idea/libraries/libhmdtest.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../hmd_api_pc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmd_api_pc/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hmd_api_pc/hmd_api_pc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmd_api_pc/hmd_api_pc.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-499">
-              <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+            <state relative-caret-position="272">
+              <caret line="230" lean-forward="true" selection-start-line="230" selection-end-line="230" />
             </state>
           </provider>
         </entry>
@@ -98,8 +76,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1724" />
-    <option name="y" value="67" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1616" />
     <option name="height" value="876" />
   </component>
@@ -365,7 +343,7 @@
       <option name="presentableId" value="Default" />
       <updated>1564741091263</updated>
       <workItem from="1564741094136" duration="1404000" />
-      <workItem from="1564986793581" duration="6828000" />
+      <workItem from="1564986793581" duration="10150000" />
     </task>
     <servers />
   </component>
@@ -375,13 +353,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8232000" />
+    <option name="totallyTimeSpent" value="11554000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1592" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21002132" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25321338" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -391,7 +369,7 @@
       <window_info id="设计师" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32962447" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3290735" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3588317" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -406,7 +384,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.26066098" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.31426734" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -483,8 +461,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-499">
-          <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+        <state relative-caret-position="272">
+          <caret line="230" lean-forward="true" selection-start-line="230" selection-end-line="230" />
         </state>
       </provider>
     </entry>

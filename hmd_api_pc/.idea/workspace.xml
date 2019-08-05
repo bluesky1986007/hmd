@@ -3,26 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="768affad-5ac6-4850-9429-6b84e88b0525" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../api_web_core/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../api_web_core/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api_web_core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../api_web_core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api_web_core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../api_web_core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api_web_core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../api_web_core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/junitreports/TEST-test.trade.itemDetails.RecommendDatalistPostTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/junitreports/TEST-test.trade.itemDetails.RecommendDatalistPostTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/junitreports/TEST-test.trade.submit.GetZBDirectlyMiniShopCartGetTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/junitreports/TEST-test.trade.submit.GetZBDirectlyMiniShopCartGetTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/接口自动化测试运行结果/接口-众包大型客货单.html" beforeDir="false" afterPath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/接口自动化测试运行结果/接口-众包大型客货单.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/接口自动化测试运行结果/接口-众包大型客货单.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/接口自动化测试运行结果/接口-众包大型客货单.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/接口自动化测试运行结果/接口-推荐.html" beforeDir="false" afterPath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/接口自动化测试运行结果/接口-推荐.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/接口自动化测试运行结果/接口-推荐.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/接口自动化测试运行结果/接口-推荐.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api_web_core/target/test-classes/test/trade/submit/GetZBDirectlyMiniShopCartGetTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api_web_core/testdata/uat/RecommendDatalistPostTest.xls" beforeDir="false" afterPath="$PROJECT_DIR$/../api_web_core/testdata/uat/RecommendDatalistPostTest.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/libhmdtest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hmd_api_pc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hmd_api_pc.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -49,10 +29,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1724" />
-    <option name="y" value="67" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="x" value="1592" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -104,16 +84,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564995770277</updated>
-      <workItem from="1564995778951" duration="768000" />
+      <workItem from="1564995778951" duration="1237000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="768000" />
+    <option name="totallyTimeSpent" value="1237000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1592" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Navigate" />
       <window_info id="Image Layers" />

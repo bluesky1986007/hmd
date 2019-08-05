@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0d5ba8a-dcb9-44cd-8588-11004227d344" name="Default Changelist" comment="" />
+    <list default="true" id="768affad-5ac6-4850-9429-6b84e88b0525" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../api_web_core/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../api_web_core/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api_web_core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../api_web_core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api_web_core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../api_web_core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api_web_core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../api_web_core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/junitreports/TEST-test.trade.itemDetails.RecommendDatalistPostTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/junitreports/TEST-test.trade.itemDetails.RecommendDatalistPostTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/junitreports/TEST-test.trade.submit.GetZBDirectlyMiniShopCartGetTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/junitreports/TEST-test.trade.submit.GetZBDirectlyMiniShopCartGetTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/接口自动化测试运行结果/接口-众包大型客货单.html" beforeDir="false" afterPath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/接口自动化测试运行结果/接口-众包大型客货单.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/接口自动化测试运行结果/接口-众包大型客货单.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/接口自动化测试运行结果/接口-众包大型客货单.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/接口自动化测试运行结果/接口-推荐.html" beforeDir="false" afterPath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/接口自动化测试运行结果/接口-推荐.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/接口自动化测试运行结果/接口-推荐.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../api_web_core/target/surefire-reports/接口自动化测试运行结果/接口-推荐.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api_web_core/target/test-classes/test/trade/submit/GetZBDirectlyMiniShopCartGetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api_web_core/testdata/uat/RecommendDatalistPostTest.xls" beforeDir="false" afterPath="$PROJECT_DIR$/../api_web_core/testdata/uat/RecommendDatalistPostTest.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/libhmdtest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hmd_api_pc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hmd_api_pc.iml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -10,17 +32,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
-  </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/test/selftest/TestSel.java">
+        <entry file="file://$PROJECT_DIR$/buildTest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="31" column="6" lean-forward="true" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+            <state relative-caret-position="379">
+              <caret line="126" column="12" lean-forward="true" selection-start-line="126" selection-start-column="12" selection-end-line="126" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -30,16 +48,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/test/selftest/TestSel.java" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="1724" />
+    <option name="y" value="67" />
     <option name="width" value="1616" />
     <option name="height" value="876" />
   </component>
@@ -50,7 +61,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -58,66 +68,19 @@
               <item name="hmd_api_pc" type="b2602c69:ProjectViewProjectNode" />
               <item name="hmd_api_pc" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="hmd_api_pc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hmd_api_pc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hmd_api_pc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hmd_api_pc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hmd_api_pc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hmd_api_pc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hmd_api_pc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hmd_api_pc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hmd_api_pc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hmd_api_pc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="selftest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hmd_api_pc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hmd_api_pc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="trade" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="E:/libsManager/libhmdtest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -136,37 +99,35 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a0d5ba8a-dcb9-44cd-8588-11004227d344" name="Default Changelist" comment="" />
-      <created>1564728892122</created>
+      <changelist id="768affad-5ac6-4850-9429-6b84e88b0525" name="Default Changelist" comment="" />
+      <created>1564995770277</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1564728892122</updated>
-      <workItem from="1564728897826" duration="263000" />
+      <updated>1564995770277</updated>
+      <workItem from="1564995778951" duration="768000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="263000" />
+    <option name="totallyTimeSpent" value="768000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="1592" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Navigate" />
       <window_info id="Image Layers" />
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Navigate" />
       <window_info id="设计师" />
+      <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -174,13 +135,12 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="JSF" />
-      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -190,88 +150,19 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/selftest/TestSel.java">
+    <entry file="file://$PROJECT_DIR$/buildTest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="31" column="6" lean-forward="true" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+        <state relative-caret-position="379">
+          <caret line="126" column="12" lean-forward="true" selection-start-line="126" selection-start-column="12" selection-end-line="126" selection-end-column="12" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>hmd_api_pc</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>libhmdtest</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

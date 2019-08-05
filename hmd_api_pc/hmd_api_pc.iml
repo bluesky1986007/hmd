@@ -118,7 +118,942 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
-    <orderEntry type="library" name="libhmdtest" level="project" />
+    <orderEntry type="jdk" jdkName="JavaSE-1.6" jdkType="JavaSDK" />
+    <orderEntry type="module-library">
+      <library name="antlr-2.7.6.jar">
+        <CLASSES>
+          <root url="file://libs/antlr-2.7.6.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="appframework-1.0.3.jar">
+        <CLASSES>
+          <root url="file://libs/appframework-1.0.3.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="asm-1.5.3.jar">
+        <CLASSES>
+          <root url="file://libs/asm-1.5.3.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="aspectjweaver-1.5.4.jar">
+        <CLASSES>
+          <root url="file://libs/aspectjweaver-1.5.4.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="axis-1.4.jar">
+        <CLASSES>
+          <root url="file://libs/axis-1.4.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="c3p0-0.9.1.2.jar">
+        <CLASSES>
+          <root url="file://libs/c3p0-0.9.1.2.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="CFCACertKitJS-1.1.jar">
+        <CLASSES>
+          <root url="file://libs/CFCACertKitJS-1.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="chardet-1.0.jar">
+        <CLASSES>
+          <root url="file://libs/chardet-1.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-attributes-api-2.1.jar">
+        <CLASSES>
+          <root url="file://libs/commons-attributes-api-2.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-beanutils-1.7.0.jar">
+        <CLASSES>
+          <root url="file://libs/commons-beanutils-1.7.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-beanutils-bean-collections-1.8.2.jar">
+        <CLASSES>
+          <root url="file://libs/commons-beanutils-bean-collections-1.8.2.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-compress-1.0.jar">
+        <CLASSES>
+          <root url="file://libs/commons-compress-1.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-dbcp-1.2.1.jar">
+        <CLASSES>
+          <root url="file://libs/commons-dbcp-1.2.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-fileupload-1.1.1.jar">
+        <CLASSES>
+          <root url="file://libs/commons-fileupload-1.1.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-httpclient-3.1.1.jar">
+        <CLASSES>
+          <root url="file://libs/commons-httpclient-3.1.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-net-3.0.1.jar">
+        <CLASSES>
+          <root url="file://libs/commons-net-3.0.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-pool-1.3.jar">
+        <CLASSES>
+          <root url="file://libs/commons-pool-1.3.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="cpdetector-1.0.10.jar">
+        <CLASSES>
+          <root url="file://libs/cpdetector-1.0.10.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dom4j-1.6.1.jar">
+        <CLASSES>
+          <root url="file://libs/dom4j-1.6.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ezmorph-1.0.6.jar">
+        <CLASSES>
+          <root url="file://libs/ezmorph-1.0.6.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="freemarker-2.3.14.jar">
+        <CLASSES>
+          <root url="file://libs/freemarker-2.3.14.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="hessian-3.1.6.jar">
+        <CLASSES>
+          <root url="file://libs/hessian-3.1.6.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="hibernate-commons-annotations-3.2.0.Final.jar">
+        <CLASSES>
+          <root url="file://libs/hibernate-commons-annotations-3.2.0.Final.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="hibernate-core-3.6.0.Final.jar">
+        <CLASSES>
+          <root url="file://libs/hibernate-core-3.6.0.Final.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="hibernate-jpa-2.0-api-1.0.0.Final.jar">
+        <CLASSES>
+          <root url="file://libs/hibernate-jpa-2.0-api-1.0.0.Final.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="hibernate-memcached-1.2.2.jar">
+        <CLASSES>
+          <root url="file://libs/hibernate-memcached-1.2.2.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="if-crypto-metadata-4.3.20.jar">
+        <CLASSES>
+          <root url="file://libs/if-crypto-metadata-4.3.20.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="if-crypto-sdk-4.3.19.jar">
+        <CLASSES>
+          <root url="file://libs/if-crypto-sdk-4.3.19.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="if-enumhelper-4.3.72.1.jar">
+        <CLASSES>
+          <root url="file://libs/if-enumhelper-4.3.72.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="if-framework-4.3.37.jar">
+        <CLASSES>
+          <root url="file://libs/if-framework-4.3.37.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="if-mdp-4.3.40.1.jar">
+        <CLASSES>
+          <root url="file://libs/if-mdp-4.3.40.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="if-notification-4.3.38.jar">
+        <CLASSES>
+          <root url="file://libs/if-notification-4.3.38.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="if-organization-4.3.25.jar">
+        <CLASSES>
+          <root url="file://libs/if-organization-4.3.25.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="if-ormbase-4.3.27.jar">
+        <CLASSES>
+          <root url="file://libs/if-ormbase-4.3.27.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="if-statusmachine-4.3.17.jar">
+        <CLASSES>
+          <root url="file://libs/if-statusmachine-4.3.17.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="if-util-4.2.3.jar">
+        <CLASSES>
+          <root url="file://libs/if-util-4.2.3.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="imap.jar">
+        <CLASSES>
+          <root url="file://libs/imap.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="j2ee-1.4.jar">
+        <CLASSES>
+          <root url="file://libs/j2ee-1.4.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jackson-all-1.9.2.jar">
+        <CLASSES>
+          <root url="file://libs/jackson-all-1.9.2.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jasperreports-1.3.1.jar">
+        <CLASSES>
+          <root url="file://libs/jasperreports-1.3.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="javaee-api-5.jar">
+        <CLASSES>
+          <root url="file://libs/javaee-api-5.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="javassist-3.12.1.GA.jar">
+        <CLASSES>
+          <root url="file://libs/javassist-3.12.1.GA.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jaxb-api-1.0.1.jar">
+        <CLASSES>
+          <root url="file://libs/jaxb-api-1.0.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jaxb-impl-1.0.6.jar">
+        <CLASSES>
+          <root url="file://libs/jaxb-impl-1.0.6.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jaxb-libs-1.0.6.jar">
+        <CLASSES>
+          <root url="file://libs/jaxb-libs-1.0.6.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jaxb-xjc-2.1.7.jar">
+        <CLASSES>
+          <root url="file://libs/jaxb-xjc-2.1.7.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jaxrpc-1.0.jar">
+        <CLASSES>
+          <root url="file://libs/jaxrpc-1.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jibx-run-1.2.jar">
+        <CLASSES>
+          <root url="file://libs/jibx-run-1.2.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jms-6.0.jar">
+        <CLASSES>
+          <root url="file://libs/jms-6.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jsch-0.1.50.jar">
+        <CLASSES>
+          <root url="file://libs/jsch-0.1.50.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="json-lib-2.3-jdk15.jar">
+        <CLASSES>
+          <root url="file://libs/json-lib-2.3-jdk15.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jta-1.1.jar">
+        <CLASSES>
+          <root url="file://libs/jta-1.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jxl-2.6.2.jar">
+        <CLASSES>
+          <root url="file://libs/jxl-2.6.2.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jxl-api-2.4.jar">
+        <CLASSES>
+          <root url="file://libs/jxl-api-2.4.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="log4j-1.2.14.jar">
+        <CLASSES>
+          <root url="file://libs/log4j-1.2.14.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mail.jar">
+        <CLASSES>
+          <root url="file://libs/mail.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mailapi.jar">
+        <CLASSES>
+          <root url="file://libs/mailapi.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mybatis-2.3.5.jar">
+        <CLASSES>
+          <root url="file://libs/mybatis-2.3.5.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mysql-connector-java-5.1.6.jar">
+        <CLASSES>
+          <root url="file://libs/mysql-connector-java-5.1.6.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ojdbc14-10.2.0.4.0.jar">
+        <CLASSES>
+          <root url="file://libs/ojdbc14-10.2.0.4.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="PKIBASE-2.0.jar">
+        <CLASSES>
+          <root url="file://libs/PKIBASE-2.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="poi-3.6.jar">
+        <CLASSES>
+          <root url="file://libs/poi-3.6.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="poi-ooxml-3.6.jar">
+        <CLASSES>
+          <root url="file://libs/poi-ooxml-3.6.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="poi-ooxml-schemas-3.6.jar">
+        <CLASSES>
+          <root url="file://libs/poi-ooxml-schemas-3.6.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="poi-scratchpad-3.6.jar">
+        <CLASSES>
+          <root url="file://libs/poi-scratchpad-3.6.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="pop3.jar">
+        <CLASSES>
+          <root url="file://libs/pop3.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="relaxngDatatype-1.0.jar">
+        <CLASSES>
+          <root url="file://libs/relaxngDatatype-1.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rm-common-4.3.72.2.jar">
+        <CLASSES>
+          <root url="file://libs/rm-common-4.3.72.2.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rm-hibernate-base-1.0.6.jar">
+        <CLASSES>
+          <root url="file://libs/rm-hibernate-base-1.0.6.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rm-rmca-api-1.0.6.jar">
+        <CLASSES>
+          <root url="file://libs/rm-rmca-api-1.0.6.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="saaj-1.2.jar">
+        <CLASSES>
+          <root url="file://libs/saaj-1.2.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="slf4j-api-1.5.8.jar">
+        <CLASSES>
+          <root url="file://libs/slf4j-api-1.5.8.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="slf4j-log4j12-1.5.8.jar">
+        <CLASSES>
+          <root url="file://libs/slf4j-log4j12-1.5.8.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="smtp.jar">
+        <CLASSES>
+          <root url="file://libs/smtp.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spring-2.5.5.jar">
+        <CLASSES>
+          <root url="file://libs/spring-2.5.5.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spring-aspects-2.0.jar">
+        <CLASSES>
+          <root url="file://libs/spring-aspects-2.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spring-context-2.5.6.jar">
+        <CLASSES>
+          <root url="file://libs/spring-context-2.5.6.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spring-context-support-2.5.6.jar">
+        <CLASSES>
+          <root url="file://libs/spring-context-support-2.5.6.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spring-core-2.5.6.jar">
+        <CLASSES>
+          <root url="file://libs/spring-core-2.5.6.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spring-jdbc-2.5.6.jar">
+        <CLASSES>
+          <root url="file://libs/spring-jdbc-2.5.6.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spring-jms-2.5.6.jar">
+        <CLASSES>
+          <root url="file://libs/spring-jms-2.5.6.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spring-orm-2.5.6.jar">
+        <CLASSES>
+          <root url="file://libs/spring-orm-2.5.6.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spring-support-2.0.8.jar">
+        <CLASSES>
+          <root url="file://libs/spring-support-2.0.8.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spring-test-2.5.6.jar">
+        <CLASSES>
+          <root url="file://libs/spring-test-2.5.6.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spring-tx-2.5.6.jar">
+        <CLASSES>
+          <root url="file://libs/spring-tx-2.5.6.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spring-web-2.5.4.jar">
+        <CLASSES>
+          <root url="file://libs/spring-web-2.5.4.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spring-webmvc-2.5.4.jar">
+        <CLASSES>
+          <root url="file://libs/spring-webmvc-2.5.4.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="steel-4.6.4.jar">
+        <CLASSES>
+          <root url="file://libs/steel-4.6.4.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="tibjms-6.0.0.jar">
+        <CLASSES>
+          <root url="file://libs/tibjms-6.0.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="tp-ta-helper-1.4.9.1.jar">
+        <CLASSES>
+          <root url="file://libs/tp-ta-helper-1.4.9.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="tp-ta-rpc-api-2.0.5.jar">
+        <CLASSES>
+          <root url="file://libs/tp-ta-rpc-api-2.0.5.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="wsdl4j-1.6.1.jar">
+        <CLASSES>
+          <root url="file://libs/wsdl4j-1.6.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="wstx-asl-3.2.0.jar">
+        <CLASSES>
+          <root url="file://libs/wstx-asl-3.2.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="xbean-1.0.jar">
+        <CLASSES>
+          <root url="file://libs/xbean-1.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="xblink-1.0.0-jdk5.jar">
+        <CLASSES>
+          <root url="file://libs/xblink-1.0.0-jdk5.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="xmemcached-1.3.5.jar">
+        <CLASSES>
+          <root url="file://libs/xmemcached-1.3.5.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="testng-6.8.jar">
+        <CLASSES>
+          <root url="file://libs/testng-6.8.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="activation-1.1.jar">
+        <CLASSES>
+          <root url="file://libs/activation-1.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-email-1.2.jar">
+        <CLASSES>
+          <root url="file://libs/commons-email-1.2.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="saxon-8.7.jar">
+        <CLASSES>
+          <root url="file://libs/saxon-8.7.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="selenium-java-2.44.0.jar">
+        <CLASSES>
+          <root url="file://libs/selenium-java-2.44.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="selenium-server-standalone-2.44.0.jar">
+        <CLASSES>
+          <root url="file://libs/selenium-server-standalone-2.44.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="selenium-java-2.44.0-srcs.jar">
+        <CLASSES>
+          <root url="file://libs/selenium-java-2.44.0-srcs.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="java-client-1.2.1.jar">
+        <CLASSES>
+          <root url="file://libs/java-client-1.2.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>

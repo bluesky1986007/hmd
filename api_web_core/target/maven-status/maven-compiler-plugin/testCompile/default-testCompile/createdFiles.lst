@@ -4,7 +4,6 @@ common\utils\UrlsOfPre.class
 test\seltest\TestSel.class
 common\frame\data\ExcelProviderByTest.class
 common\utils\UrlsOfPre$1.class
-test\trade\submit\GetZBDirectlyMiniShopCartGetTest.class
 common\frame\data\ExcelProvider.class
 service\HttpClientService.class
 common\frame\helper\Utils.class

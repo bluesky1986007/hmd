@@ -36,9 +36,21 @@
 				<version>2.20.1</version>
 				<configuration>
 					<!--<testFailureIgnore>true</testFailureIgnore> -->
+<!--					<skipTests>false</skipTests>-->
 					<suiteXmlFiles>
 						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
+<!--					<properties>-->
+<!--						<property>-->
+<!--							<name>usedefaultlisteners</name>-->
+<!--							<value>false</value>-->
+<!--						</property>-->
+<!--						<property>-->
+<!--							<name>listener</name>-->
+<!--							<value>org.uncommons.reportng.HTMLReporter,org.uncommons.reportng.JUnitXMLReporter</value>-->
+<!--						</property>-->
+<!--					</properties>-->
+					<forkMode>always</forkMode>
 				</configuration>
 			</plugin>
 
@@ -47,6 +59,7 @@
 
 
 	<dependencies>
+
 		<dependency>
 			<groupId>com.squareup.okhttp3</groupId>
 			<artifactId>okhttp</artifactId>

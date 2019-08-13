@@ -1,0 +1,8 @@
+service\HttpClientService.class
+common\frame\test\BaseTest.class
+common\frame\utils\Utils.class
+test\oms\member\MemberAddPostTest.class
+test\seltest\TestSel.class
+common\frame\data\ExcelProviderByTest.class
+service\impl\HttpClientServiceImpl.class
+common\frame\data\ExcelProvider.class

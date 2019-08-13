@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [接口自动化测试运行结果]" skipfailedinvocationcounts="true">
+  <parameter name="cookieValue" value="${cookieValue}"/>
+  <test name="接口-添加会员(failed)">
+    <classes>
+      <class name="test.oms.member.MemberAddPostTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="afterClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="memberAddPostTest" invocation-numbers="0"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- test.oms.member.MemberAddPostTest -->
+    </classes>
+  </test> <!-- 接口-添加会员(failed) -->
+</suite> <!-- Failed suite [接口自动化测试运行结果] -->

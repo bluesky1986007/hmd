@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="接口自动化测试运行结果" duration-ms="4470" started-at="2019-08-13T02:21:41Z" finished-at="2019-08-13T02:21:45Z">
+    <groups>
+    </groups>
+    <test name="接口-添加会员" duration-ms="4470" started-at="2019-08-13T02:21:41Z" finished-at="2019-08-13T02:21:45Z">
+      <class name="test.oms.member.MemberAddPostTest">
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:test.oms.member.MemberAddPostTest@28ac3dc3]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="836" started-at="2019-08-13T10:21:41Z" finished-at="2019-08-13T10:21:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.oms.member.MemberAddPostTest@28ac3dc3]" name="beforeClass" is-config="true" duration-ms="1" started-at="2019-08-13T10:21:42Z" finished-at="2019-08-13T10:21:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:test.oms.member.MemberAddPostTest@28ac3dc3]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2019-08-13T10:21:42Z" finished-at="2019-08-13T10:21:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.oms.member.MemberAddPostTest.memberAddPostTest(java.util.Map) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="memberAddPostTest(java.util.Map)[pri:0, instance:test.oms.member.MemberAddPostTest@28ac3dc3]" name="memberAddPostTest" duration-ms="3305" started-at="2019-08-13T10:21:42Z" description="接口——添加会员" data-provider="testData" finished-at="2019-08-13T10:21:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{success=True, message=保存成功}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- memberAddPostTest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:test.oms.member.MemberAddPostTest@28ac3dc3]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="2" started-at="2019-08-13T10:21:45Z" finished-at="2019-08-13T10:21:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.oms.member.MemberAddPostTest.memberAddPostTest(java.util.Map) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.oms.member.MemberAddPostTest@28ac3dc3]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-08-13T10:21:45Z" finished-at="2019-08-13T10:21:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.oms.member.MemberAddPostTest -->
+    </test> <!-- 接口-添加会员 -->
+  </suite> <!-- 接口自动化测试运行结果 -->
+</testng-results>

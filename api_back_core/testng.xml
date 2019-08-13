@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="接口自动化测试运行结果" verbose="1" skipfailedinvocationcounts="true">
+
+
+<!--	<parameter name="cookieValue" value="${cookieValue}"></parameter>-->
+
+	<test name="接口-添加会员" >
+		<classes>
+			<class name="test.oms.member.MemberAddPostTest">
+				<methods>
+					<include name="memberAddPostTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+</suite>

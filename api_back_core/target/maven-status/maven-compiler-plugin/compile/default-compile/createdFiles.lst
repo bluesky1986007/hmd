@@ -1,0 +1,8 @@
+common\frame\test\BaseTest.class
+common\utils\UrlsOfPre.class
+common\frame\data\ExcelProviderByTest.class
+test\scm\itemDetails\RecommendDatalistPostTest.class
+common\utils\UrlsOfPre$1.class
+common\frame\data\ExcelProvider.class
+service\HttpClientService.class
+service\impl\HttpClientServiceImpl.class

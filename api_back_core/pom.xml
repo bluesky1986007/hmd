@@ -48,19 +48,13 @@
 
 		<resources>
 			<resource>
-				<directory>api_back_core</directory>
-				<includes>
-					<include>**/*.xml</include>
-				</includes>
-				<filtering>true</filtering>
-			</resource>
-			<resource>
 				<directory>src/test/resources</directory>
 				<includes>
 					<include>**/*.properties</include>
 					<include>**/*.xml</include>
 				</includes>
-				<filtering>true</filtering>
+				<!--这里要设置为false，否则build的时候就不会把xml和properties文件都重新编译进去了 -->
+				<filtering>false</filtering>
 			</resource>
 		</resources>
 

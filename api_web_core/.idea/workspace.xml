@@ -1,7 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a3f4ee8-8cc1-4962-b8be-5ca0afa15a39" name="Default Changelist" comment="" />
+    <list default="true" id="1554311c-04f9-4068-9121-bb529b156c50" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/api_web_core.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/common/frame/data/CvsWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/common/frame/data/ExcelProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/common/frame/data/ExcelProviderByTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/common/frame/test/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/common/frame/utils/LocalCookieJar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/common/frame/utils/MainClassOfJar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/common/frame/utils/Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/orm/DBName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/orm/DataBaseDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/orm/SqlServerDataDeal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/orm/impl/DataBaseDaolImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/orm/impl/SqlServerDataDealImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/HelperService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/HttpClientService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/impl/HelperServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/impl/HttpClientServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/app/LoginOfAppPostTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/common/Front_CartListGetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/common/Front_CertifiedMemberGetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/common/Front_GetActivityInfoGetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/common/Front_GetmemberSaasUserinfoPostTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/common/Front_NavListGetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/common/Front_RedisCookiePostTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/common/GetCityDistrictGetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/common/GetIsVisblePromotionListGetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/common/GetLoginUserInfoGetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/common/GetLoginUserInfoMoreGetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/common/GetShopCartJsonGetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/common/GetZBDirectlyMiniShopCartGetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/pc/member/Front_MemberAllOrderGroupslistPostTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/pc/member/LoginOfPCPostTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/pc/search/Front_ProductListMorePirceGetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/pc/shopCart/Front_GetShopListGetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/pc/shopCart/Front_ShopCartCarriagePostTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/pc/trade/cashier/CheckAccountInLimit1GetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/pc/trade/cashier/Front_CashierRedirectGetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/pc/trade/cashier/GetFooterHtmlSourceCodeGetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/pc/trade/cashier/GetFooterServiceHtmlSourceCodeGetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/pc/trade/cashier/GetRightHtmlSourceCodeGetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/pc/trade/cashier/GetTopHtmlSourceCodeGetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/pc/trade/cashier/PayRemoteApplyPostTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/pc/trade/cashier/QueryDeskParamsPostTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/pc/trade/itemDetails/Front_GetListHotProductsPostTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/pc/trade/itemDetails/Front_SubmitSettlementRedisPostTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/pc/trade/itemDetails/GetActivityTagGetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/pc/trade/itemDetails/GetAskQuestListGetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/pc/trade/itemDetails/GetBrandShopInfoByProductIdGetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/pc/trade/itemDetails/GetBrowseListGetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/pc/trade/itemDetails/GetDetailTaoCanPostTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/pc/trade/itemDetails/GetExpressStandardGetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/pc/trade/itemDetails/GetMiaoshaPromotionsDetailGetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/pc/trade/itemDetails/GetNewMzInfoByProductIdGetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/pc/trade/itemDetails/GetProductCommentListGetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/pc/trade/itemDetails/GetStorageTransitTimeGetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/pc/trade/itemDetails/GetZBProductDetailGetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/pc/trade/itemDetails/QueryAdsGetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/pc/trade/payAndResult/CashierFrontReturnCallbackGetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/pc/trade/payAndResult/Front_GetHubeiSpecialtyLotteryCountGetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/pc/trade/payAndResult/OrderPayOrSubmitSuccessGetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/pc/trade/payAndResult/PayOrderSuccessGetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/pc/trade/payAndResult/PaySubmitPostTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/pc/trade/payAndResult/PaySyncBackUnionPayHandleGetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/zseltest/TestSel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/pc/trade/cashier/CheckAccountInLimit1GetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/pc/trade/cashier/CheckAccountInLimit1GetTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/pc/trade/itemDetails/GetNewMzInfoByProductIdGetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/pc/trade/itemDetails/GetNewMzInfoByProductIdGetTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/testOfWeb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/testOfWeb.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,24 +81,39 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testCases/testOfWeb.xml">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="661" column="25" selection-start-line="661" selection-start-column="25" selection-end-line="661" selection-end-column="25" />
+            <state relative-caret-position="357">
+              <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/test/zseltest/TestSel.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/pc/trade/cashier/CheckAccountInLimit1GetTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="54" column="31" lean-forward="true" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
+            <state relative-caret-position="680">
+              <caret line="52" column="84" selection-start-line="52" selection-start-column="84" selection-end-line="52" selection-end-column="84" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testCases/testOfAll.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testCases/testOfWeb.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="570" column="18" lean-forward="true" selection-start-line="570" selection-start-column="18" selection-end-line="570" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -41,56 +126,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/test/pc/TestSel.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/pc/trade/TestSel.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/context/spring-context.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/test/common/Front_RedisCookiePostTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/common/Front_NavListGetTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/common/Front_GetmemberSaasUserinfoPostTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/pc/trade/itemDetails/Front_GetListHotProductsPostTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/pc/trade/itemDetails/GetMiaoshaPromotionsDetailGetTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/pc/trade/itemDetails/GetActivityTagGetTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/pc/trade/itemDetails/Front_SubmitSettlementRedisPostTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/Front_GetCacheGetTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/Front_LinkageProductServicePostTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/Front_DistrictListGetTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/pc/trade/cashier/GetFooterHtmlSourceCodeGetTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/Front_MemberAddressPostTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/Front_HandleAddressPostTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/Front_MyHebiGetTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/Front_ZbServiceAddressPostTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/Front_GetMemberInfoByIdGetTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/Front_GetMemberInvoiceInfoGetTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/Front_HandleMemberInvoiceInfoPostTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/Front_GetGroupServiceListPostTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/Front_GetPackageListPostTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/Front_CalculationHebiPostTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/Front_GetExpressCalculatePostPostTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/Front_CalculationAmountPostTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/Front_GetServiceCouponAmountPostTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/Front_HidCacheKeyPostTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/pc/trade/cashier/GetTopHtmlSourceCodeGetTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/common/Front_CartListGetTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/Front_GetIsMZByOrderIdGetTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/Front_GetOrderInfoGetTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/Front_GetOrderInfoByOrderNoGetTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/Front_OrderSubmitPostTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/service/HttpClientService.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/pc/trade/cashier/CashierRedirectGetTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/pc/trade/cashier/PaySubmitPostTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/service/impl/HttpClientServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/service/HelperService.java" />
-        <option value="$PROJECT_DIR$/src/test/java/service/impl/HelperServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/pc/trade/cashier/Front_CashierRedirectGetTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/pc/trade/cashier/QueryDeskParamsPostTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/pc/trade/cashier/CheckAccountInLimit1GetTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/zseltest/TestSel.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/pc/trade/payAndResult/PaySubmitPostTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/pc/trade/cashier/PayRemoteApplyPostTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/pc/trade/payAndResult/Front_GetHubeiSpecialtyLotteryCountGetTest.java" />
         <option value="$PROJECT_DIR$/testCases/testOfWeb.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/test/common/Front_GetActivityInfoGetTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/pc/trade/itemDetails/GetNewMzInfoByProductIdGetTest.java" />
       </list>
     </option>
   </component>
@@ -109,14 +146,13 @@
     <option name="width" value="1600" />
     <option name="height" value="860" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,40 +184,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="frame" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api_web_core" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_web_core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="frame" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api_web_core" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_web_core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api_web_core" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_web_core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api_web_core" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_web_core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -202,82 +204,16 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="pc" type="462c0819:PsiDirectoryNode" />
               <item name="trade" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api_web_core" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_web_core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="pc" type="462c0819:PsiDirectoryNode" />
-              <item name="trade" type="462c0819:PsiDirectoryNode" />
-              <item name="itemDetails" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api_web_core" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_web_core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="pc" type="462c0819:PsiDirectoryNode" />
-              <item name="trade" type="462c0819:PsiDirectoryNode" />
-              <item name="orderSubmit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api_web_core" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_web_core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="zseltest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api_web_core" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_web_core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api_web_core" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_web_core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="context" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api_web_core" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_web_core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="properties" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="api_web_core" type="b2602c69:ProjectViewProjectNode" />
               <item name="api_web_core" type="462c0819:PsiDirectoryNode" />
               <item name="testCases" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="api_web_core" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_web_core" type="462c0819:PsiDirectoryNode" />
-              <item name="testdata" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api_web_core" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_web_core" type="462c0819:PsiDirectoryNode" />
-              <item name="testdata" type="462c0819:PsiDirectoryNode" />
-              <item name="pro" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -285,26 +221,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/testdata/fat" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="test.pc.trade.payAndResult" />
-      <recent name="test.pc.trade.cashier" />
-      <recent name="test.pc.trade.orderSubmit" />
-      <recent name="test.common" />
-      <recent name="test.pc.trade.itemDetails" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\gitlabHMD\hmd_auto_api\api_web_core\testdata\fat" />
-      <recent name="E:\gitlabHMD\hmd_auto_api\api_web_core\testdata\pro" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -318,62 +237,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.GetNewMzInfoByProductIdGetTest.getNewMzInfoByProductId">
-    <configuration name="Front_GetActivityInfoGetTest.getActivityInfo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="api_web_core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.common.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.common" />
-      <option name="MAIN_CLASS_NAME" value="test.common.Front_GetActivityInfoGetTest" />
-      <option name="METHOD_NAME" value="getActivityInfo" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Front_GetHubeiSpecialtyLotteryCountGetTest.getHubeiSpecialtyLotteryCount" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="api_web_core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.pc.trade.payAndResult.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.pc.trade.payAndResult" />
-      <option name="MAIN_CLASS_NAME" value="test.pc.trade.payAndResult.Front_GetHubeiSpecialtyLotteryCountGetTest" />
-      <option name="METHOD_NAME" value="getHubeiSpecialtyLotteryCount" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetNewMzInfoByProductIdGetTest.getNewMzInfoByProductId" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="api_web_core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.pc.trade.itemDetails.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.pc.trade.itemDetails" />
-      <option name="MAIN_CLASS_NAME" value="test.pc.trade.itemDetails.GetNewMzInfoByProductIdGetTest" />
-      <option name="METHOD_NAME" value="getNewMzInfoByProductId" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PayRemoteApplyPostTest.payRemoteApply" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="CheckAccountInLimit1GetTest.checkAccountInLimit1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="api_web_core" />
       <extension name="coverage">
         <pattern>
@@ -382,26 +247,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.pc.trade.cashier" />
-      <option name="MAIN_CLASS_NAME" value="test.pc.trade.cashier.PayRemoteApplyPostTest" />
-      <option name="METHOD_NAME" value="payRemoteApply" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PaySubmitPostTest.paySubmit" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="api_web_core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.pc.trade.payAndResult.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.pc.trade.payAndResult" />
-      <option name="MAIN_CLASS_NAME" value="test.pc.trade.payAndResult.PaySubmitPostTest" />
-      <option name="METHOD_NAME" value="paySubmit" />
+      <option name="MAIN_CLASS_NAME" value="test.pc.trade.cashier.CheckAccountInLimit1GetTest" />
+      <option name="METHOD_NAME" value="checkAccountInLimit1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -411,11 +258,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GetNewMzInfoByProductIdGetTest.getNewMzInfoByProductId" />
-        <item itemvalue="TestNG.Front_GetActivityInfoGetTest.getActivityInfo" />
-        <item itemvalue="TestNG.Front_GetHubeiSpecialtyLotteryCountGetTest.getHubeiSpecialtyLotteryCount" />
-        <item itemvalue="TestNG.PayRemoteApplyPostTest.payRemoteApply" />
-        <item itemvalue="TestNG.PaySubmitPostTest.paySubmit" />
+        <item itemvalue="TestNG.CheckAccountInLimit1GetTest.checkAccountInLimit1" />
       </list>
     </recent_temporary>
   </component>
@@ -424,397 +267,94 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7a3f4ee8-8cc1-4962-b8be-5ca0afa15a39" name="Default Changelist" comment="" />
-      <created>1594349714947</created>
+      <changelist id="1554311c-04f9-4068-9121-bb529b156c50" name="Default Changelist" comment="" />
+      <created>1600931131348</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1594349714947</updated>
-      <workItem from="1594349721908" duration="13553000" />
-      <workItem from="1594608264340" duration="11575000" />
-      <workItem from="1595302300933" duration="46670000" />
-      <workItem from="1595816205804" duration="655000" />
-      <workItem from="1595820440464" duration="19872000" />
-      <workItem from="1596438366984" duration="17252000" />
-      <workItem from="1597026215073" duration="13877000" />
-      <workItem from="1597115539547" duration="50479000" />
-      <workItem from="1597634856136" duration="4007000" />
-      <workItem from="1599479166075" duration="1065000" />
+      <updated>1600931131348</updated>
+      <workItem from="1600931137909" duration="2357000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestSel_function2 - 2020.08.14 at 15h 28m 14s.xml">
-      <configuration name="TestSel.function2" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestSel_function2 - 2020.08.14 at 15h 57m 46s.xml">
-      <configuration name="TestSel.function2" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PaySubmitPostTest_paySubmit - 2020.08.17 at 14h 13m 03s.xml">
-      <configuration name="PaySubmitPostTest.paySubmit" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PayRemoteApplyPostTest_payRemoteApply - 2020.08.17 at 14h 15m 02s.xml">
-      <configuration name="PayRemoteApplyPostTest.payRemoteApply" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Front_GetHubeiSpecialtyLotteryCountGetTest_getHubeiSpecialtyLotteryCount - 2020.08.17 at 15h 10m 50s.xml">
-      <configuration name="Front_GetHubeiSpecialtyLotteryCountGetTest.getHubeiSpecialtyLotteryCount" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Front_GetHubeiSpecialtyLotteryCountGetTest_getHubeiSpecialtyLotteryCount - 2020.08.17 at 15h 15m 56s.xml">
-      <configuration name="Front_GetHubeiSpecialtyLotteryCountGetTest.getHubeiSpecialtyLotteryCount" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Front_GetHubeiSpecialtyLotteryCountGetTest_getHubeiSpecialtyLotteryCount - 2020.08.17 at 15h 16m 31s.xml">
-      <configuration name="Front_GetHubeiSpecialtyLotteryCountGetTest.getHubeiSpecialtyLotteryCount" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Front_GetActivityInfoGetTest_getActivityInfo - 2020.09.07 at 19h 52m 56s.xml">
-      <configuration name="Front_GetActivityInfoGetTest.getActivityInfo" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GetNewMzInfoByProductIdGetTest_getNewMzInfoByProductId - 2020.09.07 at 19h 53m 45s.xml">
-      <configuration name="GetNewMzInfoByProductIdGetTest.getNewMzInfoByProductId" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GetNewMzInfoByProductIdGetTest_getNewMzInfoByProductId - 2020.09.07 at 19h 55m 14s.xml">
-      <configuration name="GetNewMzInfoByProductIdGetTest.getNewMzInfoByProductId" configurationId="TestNG" />
+    <history-entry file="CheckAccountInLimit1GetTest_checkAccountInLimit1 - 2020.09.24 at 16h 12m 30s.xml">
+      <configuration name="CheckAccountInLimit1GetTest.checkAccountInLimit1" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179005000" />
+    <option name="totallyTimeSpent" value="2357000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1592" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24786781" />
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Navigate" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Navigate" order="7" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.42976356" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25772098" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3290735" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/service/HelperService.java</url>
-          <line>133</line>
-          <properties class="service.HelperService" method="getOrderBizCode">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/pc/trade/cashier/GetRightHtmlSourceCodeGetTest.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/pc/trade/cashier/GetFooterServiceHtmlSourceCodeGetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/pc/trade/cashier/GetFooterHtmlSourceCodeGetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/GetExpressCalculateGetTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/Front_ZbServiceAddressPostTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/Front_MemberAddressPostTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/Front_LinkageProductServicePostTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/Front_DistrictListGetTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/SettlementResultGetTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/SubmitSettlementPostTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/Front_MyHebiGetTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/Front_GetMemberInfoByIdGetTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/Front_GetMemberInvoiceInfoGetTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/Front_HandleMemberInvoiceInfoPostTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/Front_GetGroupServiceListPostTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/Front_GetPackageListPostTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/Front_GetExpressCalculatePostPostTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/Front_HandleAddressPostTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/Front_CalculationAmountPostTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/Front_GetServiceCouponAmountPostTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/Front_HidCacheKeyPostTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/common/Front_CertifiedMemberGetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/common/Front_CartListGetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="35" column="71" lean-forward="true" selection-start-line="35" selection-start-column="71" selection-end-line="35" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/Front_CalculationHebiPostTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/Front_GetCacheGetTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/Front_GetIsMZByOrderIdGetTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/Front_GetOrderInfoGetTest.java" />
-    <entry file="file://$PROJECT_DIR$/testCases/testOfAll.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/Front_OrderSubmitPostTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/common/frame/utils/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/common/frame/test/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/pc/trade/orderSubmit/Front_GetOrderInfoByOrderNoGetTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/pc/trade/payAndResult/CashierFrontReturnCallbackGetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/service/impl/HttpClientServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-565">
-          <caret line="278" column="22" selection-start-line="278" selection-start-column="22" selection-end-line="278" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/service/HttpClientService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="96" column="22" selection-start-line="96" selection-start-column="22" selection-end-line="96" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/service/impl/HelperServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="565" column="18" selection-start-line="565" selection-start-column="18" selection-end-line="565" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/service/HelperService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="157" column="18" selection-start-line="157" selection-start-column="18" selection-end-line="157" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/pc/trade/cashier/Front_CashierRedirectGetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="57" column="46" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
+        <state relative-caret-position="357">
+          <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/pc/trade/cashier/CheckAccountInLimit1GetTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="63" column="4" lean-forward="true" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
+        <state relative-caret-position="680">
+          <caret line="52" column="84" selection-start-line="52" selection-start-column="84" selection-end-line="52" selection-end-column="84" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/common/frame/data/CvsWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="27" column="45" lean-forward="true" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/pc/trade/cashier/GetTopHtmlSourceCodeGetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="38" column="80" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/pc/trade/cashier/PayRemoteApplyPostTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/pc/trade/payAndResult/PaySubmitPostTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/pc/trade/payAndResult/OrderPayOrSubmitSuccessGetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-444">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/pc/trade/payAndResult/PaySyncBackUnionPayHandleGetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-121">
-          <caret line="31" column="42" lean-forward="true" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/pc/trade/cashier/QueryDeskParamsPostTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="73" column="18" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/pc/trade/payAndResult/Front_GetHubeiSpecialtyLotteryCountGetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/pc/trade/itemDetails/GetNewMzInfoByProductIdGetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/common/Front_GetActivityInfoGetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/testCases/testOfAll.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/testCases/testOfWeb.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="661" column="25" selection-start-line="661" selection-start-column="25" selection-end-line="661" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/zseltest/TestSel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="54" column="31" lean-forward="true" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
+        <state relative-caret-position="424">
+          <caret line="570" column="18" lean-forward="true" selection-start-line="570" selection-start-column="18" selection-end-line="570" selection-end-column="18" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>api_web_core</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

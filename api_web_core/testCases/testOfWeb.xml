@@ -560,15 +560,15 @@
 		</classes>
 	</test>
 	<!-- 5 -->
-	<test name="P2_PC交易_收银台_获取收银台底部html" >
-		<classes>
-			<class name="test.pc.trade.cashier.GetFooterHtmlSourceCodeGetTest">
-				<methods>
-					<include name="getFooterHtmlSourceCode" />
-				</methods>
-			</class>
-		</classes>
-	</test>
+<!--	<test name="P2_PC交易_收银台_获取收银台底部html" >-->
+<!--		<classes>-->
+<!--			<class name="test.pc.trade.cashier.GetFooterHtmlSourceCodeGetTest">-->
+<!--				<methods>-->
+<!--					<include name="getFooterHtmlSourceCode" />-->
+<!--				</methods>-->
+<!--			</class>-->
+<!--		</classes>-->
+<!--	</test>-->
 	<!-- 6 -->
 	<test name="P2_PC交易_收银台_查询并返回支付方式" >
 		<classes>

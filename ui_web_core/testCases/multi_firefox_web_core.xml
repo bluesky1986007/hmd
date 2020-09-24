@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="UI自动化测试_firefox" verbose="1" skipfailedinvocationcounts="true" parallel="tests" thread-count="2" >
+
+<!--	<parameter name="browserName" value="firefox"/>-->
+
+	<!--	测试监听-->
+<!--	<listeners>-->
+		<!--	测试报告	-->
+<!--		<listener class-name="auto.common.control.ExtentReportsForHomeDo"/>-->
+		<!--	执行结果监听器	-->
+<!--		<listener class-name="auto.common.listener.HomeDoTestListener"></listener>-->
+<!--	</listeners>-->
+
+	<!--	会员 -->
+	<!--	登录注册-->
+	<test name="会员_登录_firefox" >
+		<parameter name="browserName" value="firefox"/>
+		<classes>
+			<class name="auto.test.common.LoginTestCase"></class>
+		</classes>
+	</test>
+
+
+	<!--	web -->
+	<!--	核心交易-->
+	<test name="网站_交易_线下付款_firefox" >
+		<parameter name="browserName" value="firefox"/>
+		<classes>
+			<class name="auto.test.trade.NormalOrderTestCase"></class>
+		</classes>
+	</test>
+
+
+</suite>

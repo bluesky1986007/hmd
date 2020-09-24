@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="多浏览器UI自动化测试" verbose="1" skipfailedinvocationcounts="true" parallel="tests" thread-count="3">
+
+	<!--	测试监听-->
+<!--	<listeners>-->
+<!--		&lt;!&ndash;	测试报告	&ndash;&gt;-->
+<!--		<listener class-name="auto.common.control.ExtentReportsForHomeDo"/>-->
+<!--		&lt;!&ndash;	执行结果监听器	&ndash;&gt;-->
+<!--		<listener class-name="auto.common.listener.HomeDoTestListener"></listener>-->
+<!--	</listeners>-->
+
+<!--	<suite-files>-->
+<!--		<suite-file path="multi_chrome_web_core.xml"></suite-file>-->
+<!--		<suite-file path="multi_firefox_web_core.xml"></suite-file>-->
+<!--	</suite-files>-->
+
+	<!--	chrome-->
+	<!--	会员-->
+	<!--	登录注册-->
+	<test name="会员_登录_chrome" >
+		<parameter name="browserName" value="chrome"></parameter>
+		<classes>
+			<class name="auto.test.common.LoginTestCase"></class>
+		</classes>
+	</test>
+
+	<!--	web -->
+	<!--	核心交易-->
+	<test name="网站_交易_线下付款_chrome" >
+		<parameter name="browserName" value="chrome"></parameter>
+		<classes>
+			<class name="auto.test.trade.NormalOrderTestCase"></class>
+		</classes>
+	</test>
+
+	<!--	Firefox-->
+	<!--	会员-->
+	<!--	登录注册-->
+	<test name="会员_登录_firefox" >
+		<parameter name="browserName" value="firefox"></parameter>
+		<classes>
+			<class name="auto.test.common.LoginTestCase"></class>
+		</classes>
+	</test>
+
+	<!--	web -->
+	<!--	核心交易-->
+	<test name="网站_交易_线下付款_firefox" >
+		<parameter name="browserName" value="firefox"></parameter>
+		<classes>
+			<class name="auto.test.trade.NormalOrderTestCase"></class>
+		</classes>
+	</test>
+
+</suite>

@@ -12,11 +12,21 @@
 	<!-- -->
 	<bean id="httpClientService" class="service.impl.HttpClientServiceImpl">
 	</bean>
-	
 
-	<bean id="excelProviderByTest" class="common.frame.data.ExcelProviderByTest">
-	    <property name="envTestID" value="${TEST_ID}"></property>
+	<bean id="helperService" class="service.impl.HelperServiceImpl">
 	</bean>
 
+	<bean id="excelProviderByTest" class="common.frame.data.ExcelProviderByTest">
+<!--	    <property name="envTestID" value="${TEST_ID}"></property>-->
+	</bean>
+	<bean id="sqlServerDataDealImpl" class="orm.impl.SqlServerDataDealImpl">
+	</bean>
+	<bean id="base" class="common.frame.test.BaseTest" abstract="true">
+	</bean>
+	<bean id="dataBaseDaoImpl" class="orm.impl.DataBaseDaolImpl">
+		<!--		<property name="env" value="${TEST_ID}"></property>-->
+	</bean>
+	<bean id="selTest" class="test.zseltest.TestSel">
+	</bean>
 
 </beans>

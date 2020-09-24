@@ -21,16 +21,16 @@ public class ExcelProvider implements Iterator<Object[]>{
     private int columnNum = 0;
     private String[] columnnName;
 
-    public ExcelProvider(Object aa, String sheetName, String envTestID)
+    public  ExcelProvider(String env,Object aa, String sheetName)
     {
         try
         {
 
             this.book = Workbook.getWorkbook(
-                    new File(new File("./").getCanonicalPath() + "//testdata//"+ envTestID + "//"+ aa.getClass().getSimpleName() + ".xls"));
+                    new File(new File("./").getCanonicalPath() + "//testdata//"+ env + "//"+ aa.getClass().getSimpleName() + ".xls"));
             System.out.println("数据驱动url:" +
                     new File(new StringBuilder(String.valueOf(new File("./").getCanonicalPath()))
-                            .append("//testdata//").append(envTestID)
+                            .append("//testdata//").append(env)
                             .append("//").append(aa.getClass().getSimpleName())
                             .append(".xls").toString()));
 
